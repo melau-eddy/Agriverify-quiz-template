@@ -299,3 +299,17 @@ def webinar_redirect(request):
     except Webinar.DoesNotExist:
         # Fallback URL if no webinars exist
         return redirect('https://zoom.us/webinars')  # Or a custom "no webinars" page
+
+
+def quiz(request):
+    return render(request, 'quiz.html')
+
+
+
+
+
+
+
+
+
+

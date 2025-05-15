@@ -10,5 +10,6 @@ urlpatterns = [
     path('logout/', views.logout_view, name='logout_view'),
     path('chat/api/', views.chat_api, name='chat_api'),
     path('webinars/', views.webinar_redirect, name='webinars'),
+    path('quiz/', views.quiz, name='quiz'),
 
 ]
